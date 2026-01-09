@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const { theme, setTheme } = useTheme();
   const isDark = theme === "dark";
+
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur bg-background/95 py-2 border-b supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
